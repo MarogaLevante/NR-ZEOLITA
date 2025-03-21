@@ -137,7 +137,7 @@ header {
 .navbar.scrolled {
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #ffffff(255, 255, 255, 0.98);
+    background-color: #1a1919;
     box-shadow: var(--shadow-md);
 }
 
@@ -196,8 +196,8 @@ header {
     width: 40px;
     height: 40px;
     border-radius: 50% !important;
-    background-color: transparent !important;
-    color: var(--text-dark) !important;
+    background-color: var(--primary) !important;
+    color: white !important;
     font-weight: 600 !important;
     border: 2px solid #eee !important;
     transition: var(--transition) !important;
