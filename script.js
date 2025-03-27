@@ -187,6 +187,14 @@ function setLanguage(lang) {
         }
     });
     
+    // Aplicar traducciones para la descripción de la zeolita
+    document.querySelectorAll('[data-translate]').forEach(el => {
+        const key = el.getAttribute('data-translate');
+        if (translations[lang] && translations[lang][key]) {
+            el.innerHTML = translations[lang][key];
+        }
+    });
+
     // Guardar preferencia
     localStorage.setItem('preferredLanguage', lang);
     

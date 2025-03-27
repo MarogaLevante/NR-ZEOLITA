@@ -976,3 +976,31 @@ header {
         padding: 25px;
     }
 }
+
+/* Estilos para las imágenes y la descripción de la zeolita */
+.zeolite-images img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 15px;
+    box-shadow: var(--shadow-md);
+    transition: var(--transition);
+}
+
+.zeolite-images img:hover {
+    transform: scale(1.05);
+}
+
+.zeolite-description h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 20px;
+}
+
+.zeolite-description p {
+    font-size: 1.1rem;
+    color: var(--text-light);
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
