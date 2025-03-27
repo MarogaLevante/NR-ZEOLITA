@@ -557,6 +557,7 @@ header {
 /* Banner de página */
 .page-banner {
     background-color: var(--primary);
+    background-image: url('img/about.jpg'); /* Verificar que esta imagen exista */
     background-image: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
     padding: 120px 0 60px;
     color: white;
